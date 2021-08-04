@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-Tamaño_personalizado_1">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="Tamaño_personalizado_1" data-name="Tamaño personalizado – 1" clip-path="url(#clip-Tamaño_personalizado_1)">
+    <rect width="500" height="500" fill="#fff"/>
+    <g id="rewind-icon">
+      <path id="Trazado_1" data-name="Trazado 1" d="M250,0C111.932,0,0,111.926,0,250S111.932,500,250,500,500,388.074,500,250,388.067,0,250,0Zm0,469.365c-120.961,0-219.365-98.41-219.365-219.365,0-77.411,40.306-145.588,101.284-184.8A217.832,217.832,0,0,1,250,30.635c120.961,0,219.365,98.41,219.365,219.365S370.961,469.365,250,469.365Z" fill="#e87c00"/>
+      <path id="Trazado_2" data-name="Trazado 2" d="M99.923,250l137.823,82.392V167.608Z" transform="translate(56.165)" fill="#e87c00"/>
+    </g>
+  </g>
+</svg>

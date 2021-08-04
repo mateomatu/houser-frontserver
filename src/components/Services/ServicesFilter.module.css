@@ -1,0 +1,27 @@
+.services-filter {
+    display: flex;
+    justify-content: center;
+}
+
+.services-filter input {
+    display: inline-block;
+    padding: 1.2rem 0 1.2rem 0;
+    margin-top: 1rem;
+    border: none;
+    background: #dddddd;
+    border-radius: 30px;
+    width: 85%;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    transition: .2s;
+}
+
+.services-filter input:focus {
+    outline: none;
+    border: solid 1px #FF9800;
+}
+
+.services-filter input::placeholder {
+    text-align: center;
+}

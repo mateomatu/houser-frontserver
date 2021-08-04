@@ -1,0 +1,35 @@
+.contact-houser-ok-content {
+  height: 35%;
+  background: #ff9801;
+  padding: 0 20px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Calibri";
+  position: relative;
+}
+
+.contact-houser-ok-svg {
+    position: absolute;
+    background: white;
+    border-radius: 100%;
+    fill: #47ad2e;
+    width: 20%;
+    border: 5px solid white;
+    bottom: -37px;
+}
+
+.contact-houser-ok-content h2 {
+    font-size: 1.8rem;
+}
+
+.contact-houser-ok-content p {
+    font-size: 1.1rem;
+}
+
+.contact-houser-button {
+    margin-top: 6rem !important;
+}

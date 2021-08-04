@@ -1,0 +1,68 @@
+.profile-header {
+    position: relative;
+    background: rgb(250, 169, 18);
+    height: 3.5rem;
+    padding-top: 10px;
+    margin-bottom: 3rem;
+    border-radius: 10px 10px 0 0
+}
+
+.img-portrait {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0px;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.houser-avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    border: 6px solid white;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.houser-card {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px #33333363;
+    background: white;
+}
+
+.houser-card h3{
+    font-family: 'Calibri';
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.houser-card p{
+    font-size: 16px;
+    font-family: "Calibri";
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.valoration {
+    display: flex;
+    justify-content: center;
+}
+
+.valoration svg {
+    width: 30px;
+    fill: #ffc61e;
+}
+
+.nostarp {
+    font-size: 0.8rem;
+}

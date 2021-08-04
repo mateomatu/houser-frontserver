@@ -1,0 +1,53 @@
+.login-form {
+    width: 100%;
+}
+
+.input-section {
+    width: 80%;
+    margin: auto;
+}
+
+.login-form button {
+    display: block;
+    width: 80%;
+    border-radius: 10px;
+    margin: auto;
+    padding: 13px;
+    box-shadow: none;
+    border: none;
+    background: #ff9801;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.login-fail {
+    padding: 0 2rem 1rem 2rem;
+    color: #f44336;
+    font-weight: bold;
+    text-align: center;
+}
+
+.input-section {
+    position: relative;
+}
+
+.input-section input {
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 1.5em;
+    border-radius: 10px;
+    border: 1px solid #33333380;
+    box-shadow: none;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.input-section label{
+    font-family: "Calibri";
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 14px;
+}
+

@@ -1,0 +1,72 @@
+.notification-match-container {
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.notification-match-container-error {
+    background: #c32c2c;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.notification-match-container-ok {
+    background: #6eb755;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.notification-match-text {
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #404040;
+}
+
+.notification-match-text-error {
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.notification-match-text-ok {
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-buttons button {
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.action-buttons svg {
+    font-size: 2.813rem;
+    margin-bottom: 5px;
+}
+
+.cancel svg {
+    color: rgb(177, 30, 30);
+}
+
+.confirm svg {
+    color: rgb(71, 160, 71);
+}

@@ -1,0 +1,56 @@
+.profile-header {
+    position: relative;
+    background: rgb(255, 183, 50);
+    height: 4.5rem;
+    padding-top: 10px;
+    margin-bottom: 4.5rem;
+}
+
+
+img.photo {
+    width: 130px;
+    border-radius: 100px;
+    height: 130px;
+    border: 3px solid #FF9700;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 3px 6px #00000094;
+}
+
+.profile-data {
+    padding: 0 1rem;
+}
+
+li.user-data {
+    padding: 1.6rem 0;
+    border-bottom: 0.5px solid #808080b5;
+}
+
+li.user-data a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.user-data a:visited {
+    color: black;
+}
+
+li.user-data h3 {
+    font-family: "Calibri";
+    font-weight: lighter;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+li.user-data p {
+    font-family: "Calibri";
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-left: 0.8px;
+}
+
+/* Forms */
+

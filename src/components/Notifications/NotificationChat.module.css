@@ -1,0 +1,39 @@
+.profile-header {
+    position: relative;
+    background: rgb(255, 183, 50);
+    height: 3.8rem;
+    padding-top: 10px;
+    margin-bottom: 3.8rem;
+}
+
+img.photo {
+    width: 105px;
+    border-radius: 100px;
+    height: 105px;
+    border: 5px solid white;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.img-portrait {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.message-container {
+    width: 90%;
+    margin: auto;
+}
+
+.message-content {
+    background: #ffe1a9;
+    padding: 0.7rem;
+    border-radius: 20px 20px 20px 0;
+    margin-bottom: 15px;
+}

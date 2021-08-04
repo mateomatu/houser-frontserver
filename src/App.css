@@ -1,0 +1,22 @@
+div.content {
+    flex: 1 0 auto;
+}
+
+.service-item-info {
+    position: relative;
+}
+
+.service-item-info:after {
+    content: "";
+    background-image: url('../src/assets/imgs/servicio-compu.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}

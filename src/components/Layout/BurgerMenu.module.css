@@ -1,0 +1,35 @@
+.burger-profile {
+    display: flex;
+    margin: 5rem 0;
+}
+
+.burger-profile-text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.burger-profile img {
+    width: 4.5rem;
+    border-radius: 20px;
+    border: 1px solid orange;
+    box-shadow: 0 2px 3px #33333399;
+}
+
+.burger-nav .burger-nav-svg {
+    width: 1.5rem;
+    fill: #949494d4;
+}
+
+.burger-nav button, .burger-nav a {
+    color: #949494d4 !important;
+    font-size: 1.5rem;
+    font-family: "Calibri";
+    display: inline-block;
+    margin-left: 0.8rem;
+    vertical-align: top;
+    border: none;
+    background: transparent;
+}

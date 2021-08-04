@@ -1,0 +1,32 @@
+.toasts-wrapper {
+  position: fixed;
+  top: 0px;
+  z-index: 9999999999;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  animation: fade-in 300ms ease-in-out forwards;
+}
+  
+.toast {
+  padding: 0.5rem 1rem;
+  color: #666666;
+  background: white;
+  border: 1px solid #808080c2;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px #00000061;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+@keyframes fade-in {
+  0% {
+    top: 0;
+    opacity: 0;
+  }
+  
+  100% {
+    top: 15px;
+    opacity: 1;
+  }
+}

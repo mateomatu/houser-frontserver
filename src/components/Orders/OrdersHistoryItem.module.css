@@ -1,0 +1,69 @@
+.profile-header {
+    position: relative;
+    height: 3rem;
+    padding-top: 10px;
+    margin-bottom: 2.5rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.canceled {
+    background-color: rgb(189, 64, 64);
+}
+
+.completed {
+    background-color: rgb(88, 163, 88);
+}
+
+.houser-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    border: 6px solid white;
+    margin: 0 auto;
+    display: block;
+}
+
+.houser-card {
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #33333344;
+    min-height: auto;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+
+
+.service {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.action-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+li.rate {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 5px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px #07070736;
+    font-weight: bold;
+}
+
+li.rate .star {
+    width: 1.6rem;
+    fill: #ffc61e;
+}
+
+.dateformat {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}

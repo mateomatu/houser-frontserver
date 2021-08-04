@@ -1,0 +1,38 @@
+.register-title {
+    margin-top: 7rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #292929;
+}
+
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+}
+
+
+.login-section a:visited {
+    color: #FF9800;
+}
+
+h2.fail-login {
+    color: #f44336;
+    animation: fail-login 200ms ease-in-out;
+    animation-iteration-count: 3;
+}
+
+@keyframes fail-login {
+    0% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

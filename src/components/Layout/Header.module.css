@@ -1,0 +1,21 @@
+.app-header {
+    height: 5rem;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+header h1 img {
+    width: 8rem;
+}
+
+header .burger-menu-img {
+    width: 2.2rem;
+    left: 1.5rem;
+    position: absolute;
+    border-radius: 20px;
+    border: 2px solid #ff9800;
+    box-shadow: 0px 2px 5px #33333380;
+}
